@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TaskMeenager.Core\TaskManager.Core.csproj" />
+    <ProjectReference Include="..\TaskMeenager.Infrastructure\TaskManager.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
